@@ -4,9 +4,16 @@
     let mapa    = require('..'),
         test    = require('tape');
     
-    let inc = i => () => ++i;
+    test('map array', t => {
+        let inc     = i => ++i;
+        let result  = mapa(inc, [1,2,3,4,5]);
         
+        t.deepEqual(result, [2,3,4,5,6]);
+        t.end();
+    });
+    
     test('map newly created array', t => {
+        let inc = i => () => ++i;
         let result = mapa(inc(0), Array(5));
         
         t.deepEqual(result, [1,2,3,4,5]);
