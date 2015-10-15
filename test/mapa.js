@@ -26,7 +26,7 @@
     });
     
     test('arguments: no lists', t => {
-        let fn  = () => mapa(inc);
+        let fn  = () => mapa(() => {});
        
         t.throws(fn, /list should be an array!/, 'should throw when no list');
         t.end();
