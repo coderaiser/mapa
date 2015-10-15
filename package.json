@@ -1,0 +1,26 @@
+{
+  "name": "mapa",
+  "version": "1.0.0",
+  "description": "map all kinds of arrays",
+  "main": "lib/mapa.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/mapa.git"
+  },
+  "keywords": [
+    "map",
+    "array"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/mapa/issues"
+  },
+  "homepage": "https://github.com/coderaiser/mapa",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
