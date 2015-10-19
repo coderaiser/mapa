@@ -5,7 +5,7 @@
   "authors": [
     "coderaiser <mnemonic.enemy@gmail.com>"
   ],
-  "description": "divide array by n elements in groups",
+  "description": "map all kinds of arrays",
   "main": "lib/mapa.js",
   "moduleType": [
     "globals",
