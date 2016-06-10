@@ -20,6 +20,15 @@
         t.end();
     });
     
+    test('arguments of mapper: index', t => {
+        const mapper = (item, index, array) => {
+            t.equal(item, array[index], 'should be used element, index, array');
+        }
+        
+        mapa(mapper, [1, 2, 3, 4, 5]);
+        t.end();
+    });
+    
     test('arguments: no fn', t => {
         t.throws(mapa, /fn should be function!/, 'should throw when no fn');
         t.end();
