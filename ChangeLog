@@ -1,0 +1,7 @@
+2016.06.10, v2.0.0
+
+feature:
+- (bower) ignore: clean up
+- (mapa) item, index, n, array -> item, index, array
+- (mapa) speed up: for -> while
+
