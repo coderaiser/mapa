@@ -12,9 +12,9 @@ bower i mapa --save
 ## How to use?
 
 ```js
-let inc = i => () => ++i;
+let index = (el, index) => index;
 
-mapa(inc(0), Array(5);
+mapa(index, Array(5);
 // returns
 [1,2,3,4,5]
 ```
